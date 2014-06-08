@@ -55,20 +55,34 @@ img {
 	display: inline;
 }
 
-.social-buttons a {
-	display: block;
-	width: 100px;
-	height: 100px;
-	margin: 0 auto;
-}
-
-.github,
-.twitter,
-.linkedin,
-.tumblr {
-	background: url('../img/sprites.png') no-repeat;
+.social-buttons li a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 10px;
+	vertical-align: middle;
 }
 
 .github {
-	background-position: -100px 0;
+	background: url(../img/github.png) left top no-repeat;
+}
+
+.twitter {
+	background: url(../img/twitter.png) left top no-repeat;
+}
+
+.linkedin {
+	background: url(../img/linkedin.png);
+}
+
+.tumblr {
+	background: url(../img/tumblr.png);
+}
+
+.email {
+	background: url(../img/email.png);
+}
+
+.social-buttons li a:hover {
+	background-position: left -34px;
 }
