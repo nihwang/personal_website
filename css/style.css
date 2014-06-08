@@ -20,6 +20,17 @@ h1 {
 	background-color: teal;
 }
 
+.container {
+	float:left;
+  width:100%;
+  background:yellow;
+}
+
+.blue {
+	background-color: green;
+	height: auto;
+}
+
 .social-buttons li {
 	display: inline;
 }
