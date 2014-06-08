@@ -3,9 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Nina Hwang</title>
-	<link rel="stylesheet" href="css/html5reset.css">
+	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/col.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/overlay.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
 	<div class="section group">
@@ -14,10 +17,25 @@
 		</div>
 		<div class="right-side col span_2_of_4">
 			<div class="number-1 section group">
-				<div class="about-me col span_3_of_4">
-					About me!
+				<div class="about-me col span_2_of_3">
+					<h1>About me!</h1>
+					<section>
+						<p><button id="trigger-overlay" type="button">Open Overlay</button></p>
+					</section>
+					<div class="overlay overlay-scale">
+						<button type="button" class="overlay-close">Close</button>
+						<nav>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Work</a></li>
+								<li><a href="#">Clients</a></li>
+								<li><a href="#">Contact</a></li>
+							</ul>
+						</nav>
+					</div>
 				</div>
-				<div class="blue col span_1_of_4">
+				<div class="blue col span_1_of_3">
 					yo
 				</div>
 			</div>
@@ -29,7 +47,7 @@
 					yo
 				</div>
 			<div class="social section group">
-				<div class="col span_4_of_4">
+				<div class="col span_3_of_3">
 					<ul class="social-buttons">
 						<li><a class="email" href="mailto:nihwang12@gmail.com"></a></li>
 						<li><a class="github" href="https://github.com/nihwang" target="_blank"></a></li>
@@ -42,5 +60,7 @@
 			</div>
 		</div>
 	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/overlay.js"></script>
 </body>
 </html>
