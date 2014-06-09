@@ -16,20 +16,32 @@ img {
 h1 {
 	font-size: 60px;
 }
+
 .about-me {
 	background-color: teal;
 }
 
-.container {
-	float:left;
-  width:100%;
-  background:yellow;
+.blue {
+	background-color: blue;
 }
 
-.blue {
+.green {
 	background-color: green;
-	height: auto;
 }
+
+.pink {
+	background-color: pink;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+/*------SOCIAL BUTTONS-------*/
 
 .social-buttons li {
 	display: inline;
